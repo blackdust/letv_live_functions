@@ -18,7 +18,7 @@ LetvLiveRoom.set_uu("cba")
 live = LetvLiveRoom.new
 ```
 
-## 模块一(创建直播活动)
+### 模块一(创建直播活动)
 ```ruby
 #不传参数直接创建 会默认创建 长度为40分钟，随机字符串名字的活动名称
 live.create_letv_live
@@ -31,7 +31,7 @@ live.create_letv_live("xxx", 10)
   "A2016080900002ho"
 ```
 
-## 模块二(获取推流url和推流码)
+### 模块二(获取推流url和推流码)
 ```ruby
 live.get_obs_url_and_code
 ```
@@ -42,7 +42,7 @@ live.get_obs_url_and_code
  }
 ```
 
-## 模块三(获取机位状态)
+### 模块三(获取机位状态)
 ```ruby
   live.get_live_state
 ```
@@ -51,7 +51,7 @@ live.get_obs_url_and_code
   false
 ```
 
-## 模块四(获得播放页面)
+### 模块四(获得播放页面)
 ```ruby
   live.get_live_video_play_url
 ```
@@ -59,7 +59,7 @@ live.get_obs_url_and_code
   "http://t.cn/RtNyGK7"
 ```
 
-## 模块五(获取录制界面)
+### 模块五(获取录制界面)
 ```ruby
   live.get_saved_video_url
 ```
@@ -73,7 +73,7 @@ live.get_obs_url_and_code
   {:save_state=>"直播未结束或重未开启"}
 ```
 
-## 模块六(结束直播活动)
+### 模块六(结束直播活动)
 ```ruby
   live.finish_live_video
 ```
