@@ -161,9 +161,4 @@ class LetvLiveRoom
 end
 
 
-# LetvLiveRoom.set_userid(123456)
-# LetvLiveRoom.set_secretkey("-----------")
-# LetvLiveRoom.set_uu("xxx")
-
-
 
